@@ -1,1 +1,19 @@
+#SELECT * FROM players 
+
+#SELECT first_name FROM players
+
+#SELECT * FROM players WHERE age = 38
+
+#SELECT * FROM players #WHERE last_name = #,l"Johnson"
+
+#UPDATE players
+#SET first_name = "Magic"
+#WHERE player_id = 2
+
+#UPDATE teams
+#SET team_location = "Wis"
+#WHERE team_location = "Milwaukee"
+#SELECT * FROM teams
+#DELETE FROM teams WHERE team_id = 2
+#SELECT * FROM teams
 
