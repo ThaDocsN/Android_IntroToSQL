@@ -1,1 +1,60 @@
+CREATE TABLE players
+(
+  player_id INTEGER PRIMARY KEY,
+  first_name TEXT,
+  last_name  TEXT,
+  age INTEGER
+);
 
+CREATE TABLE teams
+(
+	team_id INTEGER PRIMARY KEY,
+  	team_name TEXT,
+  	team_location TEXT,
+  	team_number_of_players INTEGER
+);
+
+INSERT INTO players
+(
+	player_id, first_name, last_name, age
+)
+VALUES
+(
+	1, "Kobe", "Bryant", 38
+);
+
+INSERT INTO teams
+(
+	team_id, team_name, team_location, team_number_of_players
+)
+VALUES
+(
+	1, "lAKERS", "LA", 15
+);
+
+INSERT INTO players
+(
+	player_id, first_name, last_name, age
+)
+VALUES
+(
+	2, "Ervin", "Johnson", 56
+);
+
+INSERT INTO players
+(
+	player_id, first_name, last_name, age
+)
+VALUES
+(
+	3, "Kobe", "Johnson", 38
+);
+
+INSERT INTO teams
+(
+	team_id, team_name, team_location, team_number_of_players
+)
+VALUES
+(
+	2, "Bucks", "Milwaukee", 15
+);
